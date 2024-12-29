@@ -1,0 +1,112 @@
+{
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnType": true
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[vue]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "git.confirmSync": false,
+    "window.titleBarStyle": "custom",
+    "explorer.confirmDelete": false,
+    "search.useIgnoreFiles": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.wordWrap": "on",
+    "editor.overviewRulerBorder": false,
+    "workbench.editor.showIcons": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": false
+    },
+    "editor.cursorSurroundingLines": 8,
+    "editor.renderLineHighlight": "gutter",
+    "editor.stickyScroll.enabled": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/venv": true,
+        "**/.next": true
+    },
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "window.commandCenter": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-x>": false,
+        "<C-d>": false
+    },
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "editor.cursorStyle": "block",
+    "gitlens.plusFeatures.enabled": false
+}
