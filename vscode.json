@@ -107,6 +107,9 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    "editor.cursorStyle": "block",
-    "gitlens.plusFeatures.enabled": false
+    "gitlens.plusFeatures.enabled": false,
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block"
 }
