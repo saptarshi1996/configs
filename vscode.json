@@ -45,6 +45,7 @@
         "**/bower_components": true,
         "**/*.code-search": true,
         "**/venv": true,
+        "**/.venv": true,
         "**/.next": true
     },
     "terminal.integrated.enableMultiLinePasteWarning": "always",
@@ -54,7 +55,6 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.smartRelativeLine": true,
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -108,8 +108,10 @@
         "vscodevim.vim": 1
     },
     "gitlens.plusFeatures.enabled": false,
-    "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.visual": "block",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.cursorStylePerMode.replace": "block"
+    "vim.smartRelativeLine": true,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.renderCharacters": false,
+    "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.cursorStyle": "block"
 }
