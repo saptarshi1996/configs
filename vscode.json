@@ -113,5 +113,5 @@
     "editor.minimap.renderCharacters": false,
     "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.cursorStyle": "block"
+    "editor.suggestOnTriggerCharacters": false
 }
