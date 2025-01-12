@@ -12,7 +12,7 @@
     },
     "[python]": {
         "editor.tabSize": 4,
-        "editor.formatOnType": true
+        "editor.defaultFormatter": "ms-python.black-formatter",
     },
     "[javascriptreact]": {
         "editor.tabSize": 2
@@ -124,5 +124,6 @@
         "Toastify",
         "uvicorn"
     ],
-    "cSpell.numSuggestions": 4
+    "cSpell.numSuggestions": 4,
+    "black-formatter.args": ["--line-length", "70"]
 }
