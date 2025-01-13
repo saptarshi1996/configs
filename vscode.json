@@ -125,5 +125,8 @@
         "uvicorn"
     ],
     "cSpell.numSuggestions": 4,
-    "black-formatter.args": ["--line-length", "70"]
+    "black-formatter.args": [
+        "--line-length",
+        "70"
+    ]
 }
