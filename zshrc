@@ -1,9 +1,9 @@
-alias python="python3"
+alias ll='ls -alF --color=auto'
+alias la='ls -A --color=auto'
+alias l='ls -CF --color=auto'
 
-unset DOCKER_TLS_VERIFY
-unset DOCKER_CERT_PATH
-unset DOCKER_MACHINE_NAME
-unset DOCKER_HOST
+alias vzshrc="vim ~/.zshrc"
+alias szshrc="source ~/.zshrc"
 
 alias gadd="git add"
 alias gcommit="git commit"
@@ -22,9 +22,15 @@ alias gbranch="git branch"
 alias greset="git reset"
 alias gdiff="git diff"
 
+unset DOCKER_TLS_VERIFY
+unset DOCKER_CERT_PATH
+unset DOCKER_MACHINE_NAME
+unset DOCKER_HOST
+
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
 
+alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
