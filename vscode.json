@@ -1,5 +1,11 @@
 {
     "workbench.startupEditor": "none",
+    "editor.fontFamily": "Monaco",
+    "editor.letterSpacing": 0.5,
+    "editor.fontSize": 12,
+    "terminal.integrated.fontFamily": "Monaco",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.letterSpacing": 1,
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
@@ -113,7 +119,6 @@
     "editor.minimap.renderCharacters": false,
     "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.cursorStyle": "block",
     "vim.autoindent": true,
     "vim.foldfix": true,
     "cSpell.userWords": [
