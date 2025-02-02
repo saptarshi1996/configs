@@ -1,8 +1,8 @@
 {
     "workbench.startupEditor": "none",
     "editor.fontFamily": "Monaco",
-    "editor.letterSpacing": 0.5,
     "editor.fontSize": 12,
+    "editor.letterSpacing": 0.5,
     "terminal.integrated.fontFamily": "Monaco",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.letterSpacing": 1,
