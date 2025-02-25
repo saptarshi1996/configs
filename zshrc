@@ -39,3 +39,5 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
+alias code="open -b com.microsoft.VSCode"
