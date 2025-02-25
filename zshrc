@@ -34,7 +34,7 @@ alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
-alias code="open -b com.microsoft.VSCode"
+alias vcode="open -b com.microsoft.VSCode"
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm

@@ -1,11 +1,5 @@
 {
     "workbench.startupEditor": "none",
-    "editor.fontFamily": "Monaco",
-    "editor.fontSize": 12,
-    "editor.letterSpacing": 0.5,
-    "terminal.integrated.fontFamily": "Monaco",
-    "terminal.integrated.fontSize": 12,
-    "terminal.integrated.letterSpacing": 1,
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
@@ -56,82 +50,16 @@
     },
     "terminal.integrated.enableMultiLinePasteWarning": "always",
     "window.commandCenter": false,
-    "vim.easymotion": true,
-    "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
-    "vim.useCtrlKeys": true,
-    "vim.hlsearch": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "j"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<leader>",
-                "d"
-            ],
-            "after": [
-                "d",
-                "d"
-            ]
-        },
-        {
-            "before": [
-                "<C-n>"
-            ],
-            "commands": [
-                ":nohl"
-            ]
-        },
-        {
-            "before": [
-                "K"
-            ],
-            "commands": [
-                "lineBreakInsert"
-            ],
-            "silent": true
-        }
-    ],
-    "vim.leader": "<space>",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false,
-        "<C-c>": false,
-        "<C-v>": false,
-        "<C-x>": false,
-        "<C-d>": false
-    },
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
     "gitlens.plusFeatures.enabled": false,
-    "vim.smartRelativeLine": true,
     "editor.renderWhitespace": "none",
     "editor.minimap.renderCharacters": false,
     "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
-    "vim.autoindent": true,
-    "vim.foldfix": true,
-    "cSpell.userWords": [
-        "chartjs",
-        "groq",
-        "healthcheck",
-        "rabbitmq",
-        "Toastify",
-        "uvicorn"
-    ],
-    "cSpell.numSuggestions": 4,
     "black-formatter.args": [
         "--line-length",
         "70"
-    ]
+    ],
 }
