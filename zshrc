@@ -34,10 +34,10 @@ alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
+alias code="open -b com.microsoft.VSCode"
+
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
-alias code="open -b com.microsoft.VSCode"
