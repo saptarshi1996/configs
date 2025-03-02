@@ -1,5 +1,6 @@
 {
     "workbench.startupEditor": "none",
+    "editor.lineHeight": 15,
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
