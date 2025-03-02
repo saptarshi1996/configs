@@ -43,3 +43,7 @@ export NVM_DIR="$HOME/.nvm"
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 alias subl=" /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+glatest_branch() {
+  git branch --sort=-committerdate | head -1 | sed 's/^..//'
+}
