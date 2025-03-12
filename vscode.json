@@ -1,6 +1,5 @@
 {
     "workbench.startupEditor": "none",
-    "editor.lineHeight": 15,
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
@@ -49,7 +48,7 @@
         "**/.venv": true,
         "**/.next": true
     },
-    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "window.commandCenter": false,
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
@@ -57,10 +56,12 @@
     "gitlens.plusFeatures.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.minimap.renderCharacters": false,
-    "window.zoomLevel": 0,
     "diffEditor.ignoreTrimWhitespace": false,
     "black-formatter.args": [
         "--line-length",
         "70"
     ],
+    "window.zoomLevel": 0,
+    "workbench.secondarySideBar.showLabels": false
 }
+
