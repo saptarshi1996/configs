@@ -3,6 +3,7 @@ command: code --list-extensions
 amazonwebservices.aws-toolkit-vscode
 dbaeumer.vscode-eslint
 eamodio.gitlens
+hediet.vscode-drawio
 mikestead.dotenv
 ms-azuretools.vscode-docker
 ms-python.black-formatter
@@ -14,4 +15,5 @@ ms-vscode-remote.remote-containers
 prisma.prisma
 redhat.vscode-xml
 redhat.vscode-yaml
+streetsidesoftware.code-spell-checker
 usernamehw.errorlens
