@@ -17,9 +17,6 @@
     "[javascriptreact]": {
         "editor.tabSize": 2
     },
-    "[vue]": {
-        "editor.tabSize": 2
-    },
     "[json]": {
         "editor.tabSize": 2
     },
@@ -50,9 +47,6 @@
     },
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "window.commandCenter": false,
-    "extensions.experimental.affinity": {
-        "vscodevim.vim": 1
-    },
     "gitlens.plusFeatures.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.minimap.renderCharacters": false,
@@ -64,4 +58,3 @@
     "window.zoomLevel": 0,
     "workbench.secondarySideBar.showLabels": false
 }
-
