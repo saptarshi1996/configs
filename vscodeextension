@@ -12,6 +12,7 @@ ms-python.flake8
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode-remote.remote-containers
+postman.postman-for-vscode
 prisma.prisma
 redhat.vscode-xml
 redhat.vscode-yaml

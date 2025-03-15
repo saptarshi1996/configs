@@ -46,7 +46,6 @@
         "**/.next": true
     },
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "window.commandCenter": false,
     "gitlens.plusFeatures.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.minimap.renderCharacters": false,
@@ -56,5 +55,8 @@
         "70"
     ],
     "window.zoomLevel": 0,
-    "workbench.secondarySideBar.showLabels": false
+    "workbench.secondarySideBar.showLabels": false,
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false
 }
