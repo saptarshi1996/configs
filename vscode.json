@@ -12,15 +12,15 @@
     "[typescriptreact]": {
         "editor.tabSize": 2
     },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
     "[javascriptreact]": {
         "editor.tabSize": 2
     },
     "[json]": {
         "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "git.confirmSync": false,
     "window.titleBarStyle": "custom",
