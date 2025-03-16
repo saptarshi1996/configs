@@ -1,7 +1,5 @@
 {
     "workbench.startupEditor": "none",
-    "editor.fontFamily": "Menlo",
-    "terminal.integrated.fontFamily": "Monaco",
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
