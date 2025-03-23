@@ -58,5 +58,6 @@
     "workbench.secondarySideBar.showLabels": false,
     "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false
+    "window.commandCenter": false,
+    "terminal.integrated.fontWeightBold": "normal"
 }
