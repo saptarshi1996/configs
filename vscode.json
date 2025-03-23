@@ -54,6 +54,7 @@
         "--line-length",
         "70"
     ],
+    "window.zoomLevel": 0,
     "workbench.secondarySideBar.showLabels": false,
     "chat.commandCenter.enabled": false,
     "workbench.layoutControl.enabled": false,
