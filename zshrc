@@ -6,6 +6,7 @@ source $ZSH/oh-my-zsh.sh
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
+alias gconfig="git config"
 alias gadd="git add"
 alias gcommit="git commit"
 alias gcommitm="git commit -m"
