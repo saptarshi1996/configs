@@ -1,5 +1,8 @@
 {
     "workbench.startupEditor": "none",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
     "git.autofetch": true,
     "[javascript]": {
         "editor.tabSize": 2
