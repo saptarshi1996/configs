@@ -1,0 +1,1 @@
+cp defaultzshrc ~/.zshrc
