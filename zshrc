@@ -21,6 +21,9 @@ alias gstatus="git status"
 alias gbranch="git branch"
 alias greset="git reset"
 alias gdiff="git diff"
+alias gconfigname="git config user.name"
+alias gconfigemail="git config user.email"
+alias gcreds="git config credential.helper store"
 
 unset DOCKER_TLS_VERIFY
 unset DOCKER_CERT_PATH
@@ -35,6 +38,7 @@ alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
 alias vcode="open -b com.microsoft.VSCode"
+alias ccache="rm -rf ~/Library/Caches/"
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
