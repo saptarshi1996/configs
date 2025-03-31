@@ -1,0 +1,1 @@
+cp omzzshrc ~/.zshrc
