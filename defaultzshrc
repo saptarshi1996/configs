@@ -32,6 +32,7 @@ unset DOCKER_HOST
 
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
+alias dkcprune="docker system prune"
 
 alias python="python3"
 alias pyvenv="python3 -m venv"
