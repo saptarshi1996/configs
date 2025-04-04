@@ -39,6 +39,7 @@ alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
 alias vcode="open -b com.microsoft.VSCode"
+alias subl='/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'
 
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
