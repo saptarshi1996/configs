@@ -1,1 +1,1 @@
-cp omzzshrc ~/.zshrc
+cp omzzshrc ~/.zshrc && source ~/.zshrc

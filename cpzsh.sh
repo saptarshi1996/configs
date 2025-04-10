@@ -1,1 +1,1 @@
-cp defaultzshrc ~/.zshrc
+cp defaultzshrc ~/.zshrc && source ~/.zshrc
