@@ -6,7 +6,6 @@ source $ZSH/oh-my-zsh.sh
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
-alias gconfig="git config"
 alias gadd="git add"
 alias gcommit="git commit"
 alias gcommitm="git commit -m"
@@ -23,20 +22,29 @@ alias gstatus="git status"
 alias gbranch="git branch"
 alias greset="git reset"
 alias gdiff="git diff"
-
-alias dkcpup="docker compose up"
-alias dkcpdn="docker compose down"
-alias python="python3"
-alias pyvenv="python3 -m venv"
-alias pyinstall="pip3 install"
-alias subl=" /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias ccache="rm -rf ~/Library/Caches/"
-alias vcode="open -b com.microsoft.VSCode"
+alias gconfigname="git config user.name"
+alias gconfigemail="git config user.email"
+alias gcreds="git config credential.helper store"
 
 unset DOCKER_TLS_VERIFY
 unset DOCKER_CERT_PATH
 unset DOCKER_MACHINE_NAME
 unset DOCKER_HOST
+
+alias dkcpup="docker compose up"
+alias dkcpdn="docker compose down"
+alias dkcprune="docker system prune"
+
+alias python="python3"
+alias pyvenv="python3 -m venv"
+alias pyinstall="pip3 install"
+
+alias vcode="open -b com.microsoft.VSCode"
+alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias opennote="open -a TextEdit ~/Documents/docs/notes.txt"
+
+alias clearcache="rm -rf ~/Library/Caches/"
+alias sizecache="du -h ~/Library/Caches/"
 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
