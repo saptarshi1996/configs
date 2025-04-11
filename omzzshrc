@@ -41,7 +41,8 @@ alias pyinstall="pip3 install"
 
 alias vcode="open -b com.microsoft.VSCode"
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias opennote="open -a TextEdit ~/Documents/docs/notes.txt"
+
+alias allnote="open -a TextEdit ~/Documents/docs/notes.txt && subl ~/Developer/notes"
 
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
