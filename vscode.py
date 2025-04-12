@@ -5,7 +5,8 @@ from pathlib import Path
 
 def export_vscode_settings():
     # Define the path to the VS Code settings.json file
-    settings_path = Path.home() / "Library/Application Support/Code/User/settings.json"
+    settings_json = "Library/Application Support/Code/User/settings.json"
+    settings_path = Path.home() / settings_json
     output_settings = Path("vscode.json")
     output_extensions = Path("vscodeextension")
 
