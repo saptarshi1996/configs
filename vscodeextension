@@ -2,6 +2,7 @@ command: code --list-extensions
 
 amazonwebservices.aws-toolkit-vscode
 dbaeumer.vscode-eslint
+docker.docker
 eamodio.gitlens
 hediet.vscode-drawio
 mikestead.dotenv
