@@ -5,9 +5,11 @@ import sys
 shared_content = """
 # Common Aliases & Environment
 
+# Build zshrc
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
+# Git commands
 alias gadd="git add"
 alias gcommit="git commit"
 alias gcommitm="git commit -m"
@@ -29,40 +31,42 @@ alias gconfigemail="git config user.email"
 alias gcreds="git config credential.helper store"
 alias gabort="git merge --abort"
 
+# Docker
 unset DOCKER_TLS_VERIFY
 unset DOCKER_CERT_PATH
 unset DOCKER_MACHINE_NAME
 unset DOCKER_HOST
-
-alias goproject="cd ~/Developer/projects && ls"
-alias goconfigs="cd ~/Developer/projects/configs"
-
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
 alias dkcprune="docker system prune"
 
+# Python
 alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
+# Editor
 alias vcode="open -b com.microsoft.VSCode"
 alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 
+# Navigation
+alias goproject="cd ~/Developer/projects && ls"
+alias goconfigs="cd ~/Developer/projects/configs"
 alias aopen="open -a"
-
 alias back="cd ~/"
 
+# Opens all the above configs
 alias openiterm="open -a iterm"
 alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
 alias opennote="open -a Notes && open -a TextEdit ~/Developer/files/notes.txt && subl ~/Developer/notes"
 alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
-
-# opens all the above configs
 alias openall="openiterm && opendevelopment && opennote && opencomms"
 
+# Cache management
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
 
+# NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \\. "/opt/homebrew/opt/nvm/nvm.sh"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \\. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
@@ -70,6 +74,7 @@ export NVM_DIR="$HOME/.nvm"
 
 default_only = """
 # Default zsh-only aliases and settings
+
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
@@ -82,7 +87,7 @@ omz_only = """
 # Oh My Zsh setup
 
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="simple"
+ZSH_THEME="robbyrussell"
 
 source $ZSH/oh-my-zsh.sh
 
