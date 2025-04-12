@@ -51,7 +51,7 @@ alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 alias opennote="open -a Notes && open -a TextEdit ~/Documents/docs/notes.txt && subl ~/Developer/notes"
 alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
 alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
-alias activatedev="opennote && opendevelopment && opencomms"
+alias openall="opennote && opendevelopment && opencomms"
 
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
