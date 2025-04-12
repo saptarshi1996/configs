@@ -48,6 +48,7 @@ alias pyinstall="pip3 install"
 alias vcode="open -b com.microsoft.VSCode"
 alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 
+alias back="cd ~/"
 alias opennote="open -a Notes && open -a TextEdit ~/Documents/docs/notes.txt && subl ~/Developer/notes"
 alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
 alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
