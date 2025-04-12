@@ -34,6 +34,9 @@ unset DOCKER_CERT_PATH
 unset DOCKER_MACHINE_NAME
 unset DOCKER_HOST
 
+alias goproject="cd ~/Developer/projects && ls"
+alias goconfigs="cd ~/Developer/projects/configs"
+
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
 alias dkcprune="docker system prune"
