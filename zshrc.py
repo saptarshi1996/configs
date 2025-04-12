@@ -1,6 +1,6 @@
-import sys
 import os
-import subprocess
+import sys
+
 
 shared_content = """
 # Common Aliases & Environment
@@ -65,14 +65,17 @@ alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+
 """
 
 omz_only = """
 # Oh My Zsh setup
+
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="simple"
 
 source $ZSH/oh-my-zsh.sh
+
 """
 
 
@@ -80,9 +83,9 @@ def write_and_source(zsh_type):
     home_zshrc = os.path.expanduser("~/.zshrc")
 
     if zsh_type == "default":
-        content = f"{shared_content.strip()}\n\n{default_only.strip()}\n"
+        content = f"{default_only.strip()}\n\n{shared_content.strip()}\n"
     elif zsh_type == "omz":
-        content = f"{shared_content.strip()}\n\n{omz_only.strip()}\n"
+        content = f"{omz_only.strip()}\n\n{shared_content.strip()}\n"
     else:
         print("❌ Invalid argument. Use 'default' or 'omz'.")
         return
@@ -91,13 +94,7 @@ def write_and_source(zsh_type):
         f.write(content)
 
     print(f"✅ ~/.zshrc updated with {zsh_type} config.")
-
-    # Source it in a new shell session
-    subprocess.run([
-        "zsh",
-        "-c",
-        "cd && source ~/.zshrc && echo '✅ ~/.zshrc sourced.'"
-    ])
+    print("⚠️  Please restart your terminal to view changes.")
 
 
 if __name__ == "__main__":

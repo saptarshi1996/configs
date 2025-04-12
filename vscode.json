@@ -1,66 +1,66 @@
 {
-    "workbench.startupEditor": "none",
-    "window.autoDetectColorScheme": true,
-    "workbench.preferredDarkColorTheme": "Default Dark Modern",
-    "workbench.preferredLightColorTheme": "Default Light Modern",
-    "git.autofetch": true,
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "[typescript]": {
-        "editor.tabSize": 2
-    },
-    "[typescriptreact]": {
-        "editor.tabSize": 2
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2
-    },
-    "[json]": {
-        "editor.tabSize": 2
-    },
-    "[python]": {
-        "editor.tabSize": 4,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "git.confirmSync": false,
-    "window.titleBarStyle": "custom",
-    "explorer.confirmDelete": false,
-    "search.useIgnoreFiles": false,
-    "extensions.ignoreRecommendations": true,
-    "editor.wordWrap": "on",
-    "editor.overviewRulerBorder": false,
-    "workbench.editor.showIcons": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.semanticHighlighting.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.semanticTokenColorCustomizations": {
-        "enabled": false
-    },
-    "editor.cursorSurroundingLines": 8,
-    "editor.renderLineHighlight": "gutter",
-    "editor.stickyScroll.enabled": true,
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/*.code-search": true,
-        "**/venv": true,
-        "**/.venv": true,
-        "**/.next": true
-    },
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "gitlens.plusFeatures.enabled": false,
-    "editor.renderWhitespace": "none",
-    "editor.minimap.renderCharacters": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "black-formatter.args": [
-        "--line-length",
-        "70"
-    ],
-    "window.zoomLevel": 0,
-    "workbench.secondarySideBar.showLabels": false,
-    "chat.commandCenter.enabled": false,
-    "window.commandCenter": false,
-    "terminal.integrated.fontWeightBold": "normal",
-    "workbench.activityBar.location": "top"
+  "workbench.startupEditor": "none",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "git.autofetch": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "git.confirmSync": false,
+  "window.titleBarStyle": "custom",
+  "explorer.confirmDelete": false,
+  "search.useIgnoreFiles": false,
+  "extensions.ignoreRecommendations": true,
+  "editor.wordWrap": "on",
+  "editor.overviewRulerBorder": false,
+  "workbench.editor.showIcons": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": false
+  },
+  "editor.cursorSurroundingLines": 8,
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/venv": true,
+    "**/.venv": true,
+    "**/.next": true
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "gitlens.plusFeatures.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.renderCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "black-formatter.args": [
+    "--line-length",
+    "70"
+  ],
+  "window.zoomLevel": 0,
+  "workbench.secondarySideBar.showLabels": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "terminal.integrated.fontWeightBold": "normal",
+  "workbench.activityBar.location": "top"
 }
