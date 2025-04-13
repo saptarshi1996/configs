@@ -58,7 +58,7 @@ alias back="cd ~/"
 alias aopen="open -a"
 alias openiterm="open -a iterm"
 alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
-alias opennote="open -a Notes && open -a TextEdit ~/Developer/files/notes.txt && subl ~/Developer/notes"
+alias opennote="open -a Notes && subl ~/Developer/notes"
 alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
 
 # Opens all the above configs
