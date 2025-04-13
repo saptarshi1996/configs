@@ -49,8 +49,8 @@ def main():
     # Write the items to a file named 'dock.txt' with a heading
     with open('dock', 'w') as file:
         # Write heading first
-        file.write('Applications\n')
-        file.write('--------------------\n\n')
+        file.write('Applications')
+        file.write('\n\n')
         file.write('Finder\n')
 
         # Write the list of Dock items
