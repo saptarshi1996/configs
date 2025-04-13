@@ -52,14 +52,16 @@ alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 # Navigation
 alias goproject="cd ~/Developer/projects && ls"
 alias goconfigs="cd ~/Developer/projects/configs"
-alias aopen="open -a"
 alias back="cd ~/"
 
-# Opens all the above configs
+# Open Applications
+alias aopen="open -a"
 alias openiterm="open -a iterm"
 alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
 alias opennote="open -a Notes && open -a TextEdit ~/Developer/files/notes.txt && subl ~/Developer/notes"
 alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
+
+# Opens all the above configs
 alias openall="openiterm && opendevelopment && opennote && opencomms"
 
 # Cache management
