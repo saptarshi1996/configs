@@ -57,6 +57,8 @@ def main():
         for item in dock_items:
             file.write(item + '\n')  # Each item in a new line
 
+        file.write("Bin" + '\n')
+
 
 if __name__ == '__main__':
     main()

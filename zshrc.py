@@ -9,7 +9,7 @@ shared_content = """
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
-# Git commands
+# Git Alias
 alias gadd="git add"
 alias gcommit="git commit"
 alias gcommitm="git commit -m"
@@ -36,6 +36,8 @@ unset DOCKER_TLS_VERIFY
 unset DOCKER_CERT_PATH
 unset DOCKER_MACHINE_NAME
 unset DOCKER_HOST
+
+# Docker Alias
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
 alias dkcprune="docker system prune"
@@ -76,15 +78,20 @@ alias dockmin="defaults write com.apple.dock tilesize -int 16 && defaults write 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \\. "/opt/homebrew/opt/nvm/nvm.sh"
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \\. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 """
 
 default_only = """
 # Default zsh-only aliases and settings
 
+# Listing
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 
+# Autocompletion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 """
@@ -92,9 +99,13 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 omz_only = """
 # Oh My Zsh setup
 
+# Get zsh
 export ZSH="$HOME/.oh-my-zsh"
+
+# Zsh theme
 ZSH_THEME="robbyrussell"
 
+# Run sh
 source $ZSH/oh-my-zsh.sh
 
 """
