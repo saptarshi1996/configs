@@ -50,7 +50,7 @@ def main():
     with open('dock', 'w') as file:
         # Write heading first
         file.write('Applications')
-        file.write('\n\n')
+        file.write('\n\n\n')
         file.write('Finder\n')
 
         # Write the list of Dock items
