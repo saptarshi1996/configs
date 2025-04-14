@@ -68,6 +68,10 @@ alias openall="openiterm && opendevelopment && opennote && opencomms"
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
 
+# Dock
+alias dockmax="defaults delete com.apple.dock tilesize && defaults write com.apple.dock magnification -bool false && defaults write com.apple.dock autohide -bool false && killall Dock"
+alias dockmin="defaults write com.apple.dock tilesize -int 16 && defaults write com.apple.dock magnification -bool true && defaults write com.apple.dock largesize -float 64 && defaults write com.apple.dock autohide -bool true && killall Dock"
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \\. "/opt/homebrew/opt/nvm/nvm.sh"
