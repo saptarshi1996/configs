@@ -61,7 +61,6 @@ alias pyinstall="pip3 install"
 # Editor Launch Shortcuts
 # ─────────────────────────────
 alias vcode="open -b com.microsoft.VSCode"
-alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 
 # ──────────────
 # Navigation
@@ -76,12 +75,12 @@ alias back="cd ~/"
 alias aopen="open -a"
 
 alias openiterm="open -a iterm"
-alias openscripts="code ~/Developer/scripts && \\
-  subl ~/Developer/projects/configs"
+alias openscripts="zed ~/Developer/scripts && \\
+  zed ~/Developer/projects/configs"
 alias opendevelopment="open -a SourceTree && \\
   open -a ChatGPT && open -a Postman"
 alias opennote="open -a Notes && \\
-  subl ~/Developer/notes"
+  zed ~/Developer/notes"
 alias opencomms="open -a WhatsApp && \\
   open -a Mail && open -a Calendar"
 
