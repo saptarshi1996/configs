@@ -1,18 +1,22 @@
 import os
 import sys
 
-
 shared_content = """
-# Common Aliases & Environment
+# ─────────────────────────────────────────────────────────────
+# Common Aliases & Environment Setup
+# ─────────────────────────────────────────────────────────────
 
-# Build zshrc
+# Zsh Configuration
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
-# Reset ITerm2
-alias iterm2reset="defaults delete com.googlecode.iterm2 && rm ~/Library/Preferences/com.googlecode.iterm2.plist"
+# iTerm2 Reset
+alias iterm2reset="defaults delete com.googlecode.iterm2 && \\
+  rm ~/Library/Preferences/com.googlecode.iterm2.plist"
 
-# Git Alias
+# ───────────────
+# Git Shortcuts
+# ───────────────
 alias gadd="git add"
 alias gcommit="git commit"
 alias gcommitm="git commit -m"
@@ -34,81 +38,118 @@ alias gconfigemail="git config user.email"
 alias gcreds="git config credential.helper store"
 alias gabort="git merge --abort"
 
-# Docker
+# ─────────────────────────────────────────
+# Docker Environment & Shortcuts
+# ─────────────────────────────────────────
 unset DOCKER_TLS_VERIFY
 unset DOCKER_CERT_PATH
 unset DOCKER_MACHINE_NAME
 unset DOCKER_HOST
 
-# Docker Alias
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
 alias dkcprune="docker system prune"
 
-# Python
+# ───────────────
+# Python Helpers
+# ───────────────
 alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
 
-# Editor
+# ─────────────────────────────
+# Editor Launch Shortcuts
+# ─────────────────────────────
 alias vcode="open -b com.microsoft.VSCode"
 alias subl='/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl'
 
+# ──────────────
 # Navigation
+# ──────────────
 alias goproject="cd ~/Developer/projects && ls"
 alias goconfigs="cd ~/Developer/projects/configs"
 alias back="cd ~/"
 
-# Open Applications
+# ────────────────────────────────────────────────
+# Open Common Applications & Developer Tools
+# ────────────────────────────────────────────────
 alias aopen="open -a"
+
 alias openiterm="open -a iterm"
-alias opendevelopment="open -a SourceTree && open -a ChatGPT && open -a Postman"
-alias opennote="open -a Notes && subl ~/Developer/notes"
-alias opencomms="open -a WhatsApp && open -a Mail && open -a Calendar"
+alias openscripts="code ~/Developer/scripts"
+alias opendevelopment="open -a SourceTree && \\
+  open -a ChatGPT && open -a Postman"
+alias opennote="open -a Notes && \\
+  subl ~/Developer/notes"
+alias opencomms="open -a WhatsApp && \\
+  open -a Mail && open -a Calendar"
 
-# Opens all the above configs
-alias openall="openiterm && opendevelopment && opennote && opencomms"
+alias openall="openiterm && openscripts && opendevelopment && \\
+  opennote && opencomms"
 
-# Cache management
+# ─────────────────────────────
+# Cache Management
+# ─────────────────────────────
 alias clearcache="rm -rf ~/Library/Caches/"
 alias sizecache="du -h ~/Library/Caches/"
 
-# Dock
-alias dockmax="defaults delete com.apple.dock tilesize && defaults write com.apple.dock magnification -bool false && defaults write com.apple.dock autohide -bool false && killall Dock"
-alias dockmin="defaults write com.apple.dock tilesize -int 16 && defaults write com.apple.dock magnification -bool true && defaults write com.apple.dock largesize -float 64 && defaults write com.apple.dock autohide -bool true && killall Dock"
+# ─────────────
+# Dock Settings
+# ─────────────
+alias dockmax="defaults delete com.apple.dock tilesize && \\
+  defaults write com.apple.dock magnification -bool false && \\
+  defaults write com.apple.dock autohide -bool false && \\
+  killall Dock"
 
-# NVM
+alias dockmin="defaults write com.apple.dock tilesize -int 16 && \\
+  defaults write com.apple.dock magnification -bool true && \\
+  defaults write com.apple.dock largesize -float 64 && \\
+  defaults write com.apple.dock autohide -bool true && \\
+  killall Dock"
+
+# ─────────────
+# NVM Settings
+# ─────────────
 export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \\. "/opt/homebrew/opt/nvm/nvm.sh"
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \\. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \\
+  . "/opt/homebrew/opt/nvm/nvm.sh"
 
-# Homebrew
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \\
+  . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+
+# ─────────────────
+# Homebrew Setup
+# ─────────────────
 eval "$(/opt/homebrew/bin/brew shellenv)"
 """
 
 default_only = """
+# ────────────────────────────────────────────────
 # Default zsh-only aliases and settings
+# ────────────────────────────────────────────────
 
-# Listing
+# Directory Listings
 alias ll='ls -alF --color=auto'
 alias la='ls -A --color=auto'
 alias l='ls -CF --color=auto'
 
-# Autocompletion
+# Case-Insensitive Autocompletion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 """
 
 omz_only = """
+# ─────────────────────────────
 # Oh My Zsh setup
+# ─────────────────────────────
 
-# Get zsh
+# Oh My Zsh base directory
 export ZSH="$HOME/.oh-my-zsh"
 
-# Zsh theme
+# Zsh theme (can be changed to your preference)
 ZSH_THEME="simple"
 
-# Run sh
+# Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
 
 """
