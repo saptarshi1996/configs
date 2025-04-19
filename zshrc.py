@@ -9,6 +9,9 @@ shared_content = """
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 
+# Reset ITerm2
+alias iterm2reset="defaults delete com.googlecode.iterm2 && rm ~/Library/Preferences/com.googlecode.iterm2.plist"
+
 # Git Alias
 alias gadd="git add"
 alias gcommit="git commit"
@@ -103,7 +106,7 @@ omz_only = """
 export ZSH="$HOME/.oh-my-zsh"
 
 # Zsh theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="simple"
 
 # Run sh
 source $ZSH/oh-my-zsh.sh
