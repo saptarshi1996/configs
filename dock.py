@@ -1,5 +1,5 @@
-import plistlib
 import os
+import plistlib
 
 
 def get_dock_items():

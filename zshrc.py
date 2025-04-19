@@ -76,7 +76,8 @@ alias back="cd ~/"
 alias aopen="open -a"
 
 alias openiterm="open -a iterm"
-alias openscripts="code ~/Developer/scripts"
+alias openscripts="code ~/Developer/scripts && \\
+  subl ~/Developer/projects/configs"
 alias opendevelopment="open -a SourceTree && \\
   open -a ChatGPT && open -a Postman"
 alias opennote="open -a Notes && \\
