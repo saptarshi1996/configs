@@ -63,5 +63,7 @@
   "workbench.activityBar.location": "top",
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "line"
 }
