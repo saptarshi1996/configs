@@ -70,10 +70,11 @@ alias goconfigs="cd ~/Developer/projects/configs"
 alias back="cd ~/"
 
 # ────────────────────────────────────────────────
-# Open Common Applications & Developer Tools
+# Applications & Developer Tools
 # ────────────────────────────────────────────────
 alias aopen="open -a"
 alias openall="{{OPEN_COMMANDS}}"
+alias closeall="{{CLOSE_COMMANDS}}"
 
 # ─────────────────────────────
 # Cache Management
@@ -158,13 +159,22 @@ def build_open_aliases(file_path):
     return open_commands
 
 
-def write_and_source(zsh_type, open_command):
+def build_close_aliases(file_path):
+    with open(file_path, "r") as f:
+       apps = [line.strip() for line in f if line.strip()]
+
+    close_commands = ["""osascript -e 'quit app \"zed\"'""" if app.startswith((
+        "~/", "./", "/")) else f"osascript -e 'quit app \"{app}\"'" for app in apps]
+    return close_commands
+
+
+def write_and_source(zsh_type, open_command, close_command):
     home_zshrc = os.path.expanduser("~/.zshrc")
 
     shared_content = shared_content_template.replace(
         "{{OPEN_COMMANDS}}",
         open_command
-    )
+    ).replace("{{CLOSE_COMMANDS}}", close_command)
 
     if zsh_type == "default":
         content = f"{default_only.strip()}\n\n{shared_content.strip()}\n"
@@ -187,15 +197,23 @@ if __name__ == "__main__":
     else:
         default, custom = "defaultopen.txt", "customopen.txt"
 
-        default_aliases = build_open_aliases(default)
-        custom_aliases = build_open_aliases(custom)
+        default_open_aliases = build_open_aliases(default)
+        custom_open_aliases = build_open_aliases(custom)
 
-        alias_list = default_aliases + custom_aliases
-        open_command = " && \\\n  ".join(alias_list)
+        open_alias_list = default_open_aliases + custom_open_aliases
+        open_command = " && \\\n  ".join(open_alias_list)
+
+        default_close_aliases = build_close_aliases(default)
+        custom_close_aliases = build_close_aliases(custom)
+
+        close_alias_list = default_close_aliases + custom_close_aliases
+        close_alias_list_unique = list(dict.fromkeys(close_alias_list))
+        close_command = " && \\\n  ".join(close_alias_list_unique)
 
         zsh_type = sys.argv[1].lower()
 
         write_and_source(
             zsh_type=zsh_type,
-            open_command=open_command
+            open_command=open_command,
+            close_command=close_command
         )
