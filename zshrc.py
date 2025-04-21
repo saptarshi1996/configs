@@ -65,8 +65,9 @@ alias vcode="open -b com.microsoft.VSCode"
 # ──────────────
 # Navigation
 # ──────────────
-alias goproject="cd ~/Developer/projects && ls"
+alias goprojects="cd ~/Developer/projects && ls"
 alias goconfigs="cd ~/Developer/projects/configs"
+alias goscripts="cd ~/Developer/scripts"
 alias back="cd ~/"
 
 # ────────────────────────────────────────────────
@@ -155,9 +156,10 @@ def build_open_aliases(file_path):
         apps = [line.strip() for line in f if line.strip()]
 
     open_commands = [
-        f"{app.split('####')[1]} {app.split('####')[0]}"
+        f"zed {app}"
         if app.startswith(("~/", "./", "/"))
         else f"open -a {app}" for app in apps]
+
     return open_commands
 
 

@@ -7,5 +7,5 @@ Mail
 Calendar
 'Google Chrome'
 'Brave Browser'
-~/Developer/scripts####zed
-~/Developer/notes####zed
+~/Developer/scripts
+~/Developer/notes
