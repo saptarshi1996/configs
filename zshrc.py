@@ -154,8 +154,10 @@ def build_open_aliases(file_path):
     with open(file_path, "r") as f:
         apps = [line.strip() for line in f if line.strip()]
 
-    open_commands = [f"zed {app}" if app.startswith((
-        "~/", "./", "/")) else f"open -a {app}" for app in apps]
+    open_commands = [
+        f"{app.split('####')[1]} {app.split('####')[0]}"
+        if app.startswith(("~/", "./", "/"))
+        else f"open -a {app}" for app in apps]
     return open_commands
 
 
@@ -176,9 +178,6 @@ def write_and_source(zsh_type, open_command):
         return
 
     with open(home_zshrc, "w") as f:
-        f.write(content)
-
-    with open(".zshrc", "w") as f:
         f.write(content)
 
     print(f"✅ ~/.zshrc updated with {zsh_type} config.")

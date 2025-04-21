@@ -5,5 +5,7 @@ Postman
 Notes
 Mail
 Calendar
-~/Developer/scripts
-~/Developer/notes
+'Google Chrome'
+'Brave Browser'
+~/Developer/scripts####zed
+~/Developer/notes####zed
