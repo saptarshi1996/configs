@@ -1,0 +1,9 @@
+iterm
+SourceTree
+ChatGPT
+Postman
+Notes
+Mail
+Calendar
+~/Developer/scripts
+~/Developer/notes

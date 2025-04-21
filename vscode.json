@@ -64,6 +64,6 @@
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "line"
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyleInactive": "underline"
 }

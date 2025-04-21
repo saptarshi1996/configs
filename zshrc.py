@@ -1,7 +1,7 @@
 import os
 import sys
 
-shared_content = """
+shared_content_template = """
 # ─────────────────────────────────────────────────────────────
 # Common Aliases & Environment Setup
 # ─────────────────────────────────────────────────────────────
@@ -73,19 +73,7 @@ alias back="cd ~/"
 # Open Common Applications & Developer Tools
 # ────────────────────────────────────────────────
 alias aopen="open -a"
-
-alias openiterm="open -a iterm"
-alias openscripts="zed ~/Developer/scripts && \\
-  zed ~/Developer/projects/configs"
-alias opendevelopment="open -a SourceTree && \\
-  open -a ChatGPT && open -a Postman"
-alias opennote="open -a Notes && \\
-  zed ~/Developer/notes"
-alias opencomms="open -a WhatsApp && \\
-  open -a Mail && open -a Calendar"
-
-alias openall="openiterm && openscripts && opendevelopment && \\
-  opennote && opencomms"
+alias openall="{{OPEN_COMMANDS}}"
 
 # ─────────────────────────────
 # Cache Management
@@ -121,6 +109,9 @@ export NVM_DIR="$HOME/.nvm"
 # Homebrew Setup
 # ─────────────────
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+alias brewall="brew update && brew upgrade && \\
+  brew autoremove && brew cleanup"
 """
 
 default_only = """
@@ -154,9 +145,26 @@ source $ZSH/oh-my-zsh.sh
 
 """
 
+def build_open_aliases(file_path):
+    if not os.path.exists(file_path):
+            print(f"📝 {file_path} not found. Creating it...")
+            with open(file_path, "w") as f:
+                f.write("")
+    with open(file_path, "r") as f:
+       apps = [line.strip() for line in f if line.strip()]
 
-def write_and_source(zsh_type):
+    open_commands = [f"zed {app}" if app.startswith((
+        "~/", "./", "/")) else f"open -a {app}" for app in apps]
+    return open_commands
+
+
+def write_and_source(zsh_type, open_command):
     home_zshrc = os.path.expanduser("~/.zshrc")
+
+    shared_content = shared_content_template.replace(
+        "{{OPEN_COMMANDS}}",
+        open_command
+    )
 
     if zsh_type == "default":
         content = f"{default_only.strip()}\n\n{shared_content.strip()}\n"
@@ -177,4 +185,17 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python3 set_zshrc.py [default|omz]")
     else:
-        write_and_source(sys.argv[1].lower())
+        default, custom = "defaultopen.txt", "customopen.txt"
+
+        default_aliases = build_open_aliases(default)
+        custom_aliases = build_open_aliases(custom)
+
+        alias_list = default_aliases + custom_aliases
+        open_command = " && \\\n  ".join(alias_list)
+
+        zsh_type = sys.argv[1].lower()
+
+        write_and_source(
+            zsh_type=zsh_type,
+            open_command=open_command
+        )
