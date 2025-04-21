@@ -190,7 +190,7 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python3 set_zshrc.py [default|omz]")
     else:
-        default, custom = "defaultopen.txt", "customopen.txt"
+        default, custom = "defaultopen", "customopen"
 
         default_open_aliases = build_open_aliases(default)
         custom_open_aliases = build_open_aliases(custom)
