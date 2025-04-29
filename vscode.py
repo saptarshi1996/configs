@@ -41,7 +41,7 @@ def export_vscode_settings():
     except subprocess.CalledProcessError as e:
         print(f"❌ Error listing extensions: {e.stderr.strip()}")
     except FileNotFoundError:
-        print("❌ 'code' command not found.")
+        print("❌ 'code' command not found")
 
 
 if __name__ == "__main__":
