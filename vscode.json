@@ -60,8 +60,8 @@
   "window.zoomLevel": 0,
   "workbench.secondarySideBar.showLabels": false,
   "terminal.integrated.fontWeightBold": "normal",
-  "workbench.activityBar.location": "top",
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "top"
 }
