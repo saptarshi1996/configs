@@ -49,6 +49,7 @@ unset DOCKER_HOST
 
 alias dkcpup="docker compose up"
 alias dkcpdn="docker compose down"
+alias dkcimgprune="docker image prune"
 alias dkcprune="docker system prune"
 
 # ───────────────
