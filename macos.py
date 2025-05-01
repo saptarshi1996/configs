@@ -1,19 +1,19 @@
 import subprocess
-import Quartz
+import Quartz # type: ignore
 
 def get_display_info():
     # Get main display ID
-    main_display = Quartz.CGMainDisplayID()
+    main_display = Quartz.CGMainDisplayID() # type: ignore
 
     # Native resolution (actual physical pixels)
-    native_width = Quartz.CGDisplayPixelsWide(main_display)
-    native_height = Quartz.CGDisplayPixelsHigh(main_display)
+    native_width = Quartz.CGDisplayPixelsWide(main_display) # type: ignore
+    native_height = Quartz.CGDisplayPixelsHigh(main_display) # type: ignore
     native_resolution = f"{native_width}x{native_height}"
 
     # Current (scaled) resolution
-    current_mode = Quartz.CGDisplayCopyDisplayMode(main_display)
-    current_width = Quartz.CGDisplayModeGetWidth(current_mode)
-    current_height = Quartz.CGDisplayModeGetHeight(current_mode)
+    current_mode = Quartz.CGDisplayCopyDisplayMode(main_display) # type: ignore
+    current_width = Quartz.CGDisplayModeGetWidth(current_mode) # type: ignore
+    current_height = Quartz.CGDisplayModeGetHeight(current_mode) # type: ignore
     current_resolution = f"{current_width}x{current_height}"
 
     return native_resolution, current_resolution
