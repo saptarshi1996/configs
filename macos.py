@@ -44,4 +44,4 @@ with open("macos.txt", "w") as file:
     for line in output_lines:
         file.write(line + "\n")
 
-print("Display info written to display_info.txt")
+print("Display info written to macos.txt")
