@@ -62,5 +62,7 @@
   "terminal.integrated.fontWeightBold": "normal",
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.fontFamily": "Monaco"
 }
