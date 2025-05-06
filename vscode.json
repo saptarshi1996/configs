@@ -1,6 +1,7 @@
 {
   "workbench.startupEditor": "none",
   "window.autoDetectColorScheme": true,
+  "editor.fontFamily": "MesloLGM Nerd font mono",
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
@@ -63,6 +64,5 @@
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
   "window.commandCenter": false,
-  "workbench.activityBar.location": "top",
-  "terminal.integrated.fontFamily": "Monaco"
+  "workbench.activityBar.location": "top"
 }
