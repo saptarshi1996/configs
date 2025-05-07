@@ -2,7 +2,7 @@
   "workbench.startupEditor": "none",
   "window.autoDetectColorScheme": true,
   "editor.fontFamily": "MesloLGM Nerd font mono",
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Night Owl",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {

@@ -1,4 +1,3 @@
-Warp
 SourceTree
 ChatGPT
 Postman
@@ -7,5 +6,5 @@ Mail
 Calendar
 'Google Chrome'
 'Brave Browser'
-~/Developer/scripts
-~/Developer/notes
+code ~/Developer/scripts
+subl ~/Developer/notes

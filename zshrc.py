@@ -141,7 +141,7 @@ omz_only = """
 export ZSH="$HOME/.oh-my-zsh"
 
 # Zsh theme (can be changed to your preference)
-ZSH_THEME="agnoster"
+ZSH_THEME="simple"
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
@@ -158,8 +158,8 @@ def build_open_aliases(file_path):
         apps = [line.strip() for line in f if line.strip()]
 
     open_commands = [
-        f"zed {app}"
-        if app.startswith(("~/", "./", "/"))
+        f"{app}"
+        if app.startswith(("code", "subl"))
         else f"open -a {app}" for app in apps]
 
     return open_commands
