@@ -9,6 +9,7 @@ shared_content_template = """
 # Zsh Configuration
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
+alias szprofile="source ~/.zprofile"
 
 # iTerm2 Reset
 alias iterm2reset="defaults delete com.googlecode.iterm2 && \\
