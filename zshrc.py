@@ -160,7 +160,7 @@ def build_open_aliases(file_path):
 
     open_commands = [
         f"{app}"
-        if app.startswith(("code", "subl"))
+        if app.startswith(("code", "subl", "open"))
         else f"open -a {app}" for app in apps]
 
     return open_commands
