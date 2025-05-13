@@ -1,8 +1,11 @@
 {
   "workbench.startupEditor": "none",
+  "editor.fontSize": 14.5,
+  "editor.lineHeight": 1.2,
+  "terminal.integrated.fontSize": 14,
   "window.autoDetectColorScheme": true,
-  "editor.fontFamily": "MesloLGM Nerd Font Mono",
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "editor.fontFamily": "UbuntuMono Nerd Font Mono",
+  "workbench.preferredDarkColorTheme": "Default High Contrast",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
