@@ -7,5 +7,5 @@ Mail
 Calendar
 'Google Chrome'
 'Firefox'
-code ~/Developer/scripts
+open -b com.microsoft.VSCode ~/Developer/scripts
 subl ~/Developer/notes
