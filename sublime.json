@@ -1,14 +1,13 @@
 {
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"font_face": "MesloLGM Nerd Font mono",
-	"font_size": 12,
-	"caret_extra_top": 0,
-	"caret_extra_bottom": 0,
-	"caret_extra_width": 0,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"index_files": true
+  "theme": "GitHub Dark.sublime-theme",
+  "color_scheme": "GitHub Dark.sublime-color-scheme",
+  "font_size": 12.5,
+  "font_face": "MesloLGM Nerd Font mono",
+  "caret_extra_top": 0,
+  "caret_extra_bottom": 0,
+  "caret_extra_width": 0,
+  "ignored_packages": [
+    "Vintage"
+  ],
+  "index_files": true
 }
