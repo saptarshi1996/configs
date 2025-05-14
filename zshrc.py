@@ -71,6 +71,7 @@ alias vcode="open -b com.microsoft.VSCode"
 alias goprojects="cd ~/Developer/projects && ls"
 alias goconfigs="cd ~/Developer/projects/configs"
 alias goscripts="cd ~/Developer/scripts"
+alias gonotes="cd ~/Developer/notes"
 alias back="cd ~/ && clear"
 
 # ────────────────────────────────────────────────
@@ -142,7 +143,7 @@ omz_only = """
 export ZSH="$HOME/.oh-my-zsh"
 
 # Zsh theme (can be changed to your preference)
-ZSH_THEME="robbyrussell"
+ZSH_THEME="simple"
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
