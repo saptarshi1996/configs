@@ -1,6 +1,7 @@
 import subprocess
 import Quartz # type: ignore
 
+
 def get_display_info():
     # Get main display ID
     main_display = Quartz.CGMainDisplayID() # type: ignore
@@ -18,6 +19,7 @@ def get_display_info():
 
     return native_resolution, current_resolution
 
+
 def get_color_theme():
     try:
         theme_output = subprocess.check_output(
@@ -27,6 +29,7 @@ def get_color_theme():
         return "Dark" if theme_output == "Dark" else "Light"
     except subprocess.CalledProcessError:
         return "Light"  # If key doesn't exist, it's Light mode
+
 
 # Run
 native_res, current_res = get_display_info()
