@@ -71,7 +71,7 @@ alias vcode="open -b com.microsoft.VSCode"
 alias goprojects="cd ~/Developer/projects && ls"
 alias goconfigs="cd ~/Developer/projects/configs"
 alias goscripts="cd ~/Developer/scripts"
-alias back="cd ~/"
+alias back="cd ~/ && clear"
 
 # ────────────────────────────────────────────────
 # Applications & Developer Tools
