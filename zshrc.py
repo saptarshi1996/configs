@@ -102,8 +102,8 @@ alias dockmin="defaults write com.apple.dock tilesize -int 16 && \\
 
 alias dockleft="defaults write com.apple.dock orientation -string 'left' && \\
     killall Dock"
-alias dockdown="defaults write com.apple.dock orientation -string 'bottom' && \\
-    killall Dock"
+alias dockdown="defaults write com.apple.dock orientation -string \\
+  'bottom' && killall Dock"
 
 alias dockhide="defaults write com.apple.dock autohide -bool true && \\
     killall Dock"
