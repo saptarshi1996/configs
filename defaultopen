@@ -6,6 +6,6 @@ Notes
 Mail
 Calendar
 'Google Chrome'
-'Firefox'
+'Brave Browser'
 open -b com.microsoft.VSCode ~/Developer/scripts
 subl ~/Developer/notes
