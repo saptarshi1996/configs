@@ -96,7 +96,7 @@ alias dockmax="defaults delete com.apple.dock tilesize && \\
 
 alias dockmin="defaults write com.apple.dock tilesize -int 16 && \\
   defaults write com.apple.dock magnification -bool true && \\
-  defaults write com.apple.dock largesize -float 100 && \\
+  defaults write com.apple.dock largesize -float 80 && \\
   defaults write com.apple.dock autohide -bool true && \\
   killall Dock"
 
