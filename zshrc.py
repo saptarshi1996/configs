@@ -126,7 +126,7 @@ export NVM_DIR="$HOME/.nvm"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias brewall="brew update && brew upgrade && \\
-  brew autoremove && brew cleanup --prune=all"
+  brew autoremove && brew cleanup --prune=all && clearcache"
 """
 
 default_only = """
