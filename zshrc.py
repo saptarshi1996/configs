@@ -6,13 +6,10 @@ shared_content_template = """
 # Common Aliases & Environment Setup
 # ─────────────────────────────────────────────────────────────
 
-# Zsh Configuration
+alias cl="clear"
 alias vzshrc="vim ~/.zshrc"
 alias szshrc="source ~/.zshrc"
 alias szprofile="source ~/.zprofile"
-alias cl="clear"
-
-# iTerm2 Reset
 alias iterm2reset="defaults delete com.googlecode.iterm2 && \\
   rm ~/Library/Preferences/com.googlecode.iterm2.plist"
 
