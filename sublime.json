@@ -2,7 +2,6 @@
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"font_size": 12.5,
-	"font_face": "Monaco",
 	"caret_extra_top": 0,
 	"caret_extra_bottom": 0,
 	"caret_extra_width": 0,
