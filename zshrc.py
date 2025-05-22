@@ -67,9 +67,9 @@ alias vcode="open -b com.microsoft.VSCode"
 # Navigation
 # ──────────────
 alias goprojects="cd ~/Developer/projects && ls"
-alias goconfigs="cd ~/Developer/projects/configs"
-alias goscripts="cd ~/Developer/scripts"
-alias gonotes="cd ~/Developer/notes"
+alias goconfigs="cd ~/Developer/projects/configs && ls"
+alias goscripts="cd ~/Developer/scripts && ls"
+alias gonotes="cd ~/Developer/notes && ls"
 alias back="cd ~/ && clear"
 
 # ────────────────────────────────────────────────
