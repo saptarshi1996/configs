@@ -108,6 +108,12 @@ alias dockhide="defaults write com.apple.dock autohide -bool true && \\
 alias dockshow="defaults write com.apple.dock autohide -bool false && \\
     killall Dock"
 
+alias dockfast="defaults write com.apple.dock autohide-delay -float 0 && \\
+    defaults write com.apple.dock autohide-time-modifier -int 0 && \\
+    killall Dock;"
+alias dockslow="defaults delete com.apple.dock autohide-delay && \\
+    defaults delete com.apple.dock autohide-time-modifier && killall Dock;"
+
 # ─────────────
 # NVM Settings
 # ─────────────
