@@ -4,6 +4,8 @@
   "terminal.integrated.fontSize": 12,
   "editor.lineHeight": 1.35,
   "window.autoDetectColorScheme": true,
+  "editor.fontFamily": "Monaco",
+  "editor.letterSpacing": 0.5,
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
