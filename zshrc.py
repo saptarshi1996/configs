@@ -57,6 +57,8 @@ alias dkcprune="docker system prune"
 alias python="python3"
 alias pyvenv="python3 -m venv"
 alias pyinstall="pip3 install"
+alias pyrequirements="pip3 install -r requirements.txt"
+alias pypipupgrade="python3 -m pip install --upgrade pip"
 
 # ─────────────────────────────
 # Editor Launch Shortcuts
