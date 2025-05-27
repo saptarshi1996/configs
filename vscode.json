@@ -1,19 +1,18 @@
 {
   "workbench.startupEditor": "none",
-  "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
+  "editor.fontSize": 12.5,
+  "terminal.integrated.fontSize": 13,
   "editor.fontFamily": "Monaco",
-  "terminal.integrated.fontFamily": "Monaco",
   "editor.lineHeight": 1.35,
   "terminal.integrated.lineHeight": 1.35,
   "editor.letterSpacing": 0.5,
-  "terminal.integrated.letterSpacing": 0,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescript]": {
     "editor.tabSize": 2
@@ -25,7 +24,8 @@
     "editor.tabSize": 2
   },
   "[json]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[python]": {
     "editor.tabSize": 4,
@@ -38,14 +38,86 @@
   "extensions.ignoreRecommendations": true,
   "editor.wordWrap": "on",
   "editor.overviewRulerBorder": false,
-  "python.createEnvironment.trigger": "off",
   "workbench.editor.showIcons": true,
   "explorer.confirmDragAndDrop": false,
   "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.semanticTokenColorCustomizations": {
     "enabled": false
   },
+  "editor.renderLineHighlight": "gutter",
+  "editor.stickyScroll.enabled": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/venv": true,
+    "**/.venv": true,
+    "**/.next": true,
+    "**/.aws-sam": true
+  },
+  "yaml.schemas": {
+    "file:///Users/saptarshisengupta/.vscode/extensions/atlassian.atlascode-3.8.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "yaml.customTags": [
+    "!Equals sequence",
+    "!FindInMap sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!Join sequence",
+    "!Ref",
+    "!Select sequence",
+    "!Split sequence",
+    "!Sub",
+    "!If"
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "gitlens.plusFeatures.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.cursorSurroundingLines": 8,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.renderCharacters": false,
+  "black-formatter.args": [
+    "--line-length",
+    "70"
+  ],
+  "python.createEnvironment.trigger": "off",
+  "svg.preview.mode": "svg",
+  "workbench.secondarySideBar.showLabels": false,
+  "workbench.experimental.share.enabled": true,
+  "chat.commandCenter.enabled": false,
+  "playwright.runGlobalSetupOnEachRun": false,
+  "workbench.editor.enablePreview": false,
+  "playwright.reuseBrowser": true,
+  "terminal.integrated.fontWeightBold": "normal",
+  "window.commandCenter": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "b8595c17-d75e-4f58-8ab5-b12e90a6c56d",
+      "enabled": true,
+      "name": "My startree Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "e4fef025-d5e6-49c2-991e-2f3738ea8807",
+      "monitor": true
+    }
+  ],
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "e4fef025-d5e6-49c2-991e-2f3738ea8807",
+    "projectKey": "AI"
+  },
+  "cSpell.ignoreWords": [
+    "adls"
+  ],
+  "githubPullRequests.terminalLinksHandler": "github",
+  "cSpell.enabledNotifications": {
+    "Average Word Length too Long": false,
+    "Lines too Long": false,
+    "Maximum Word Length Exceeded": false
+  },
+  "workbench.iconTheme": "vscode-great-icons",
+  "postman.settings.dotenv-detection-notification-visibility": false,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -62,41 +134,7 @@
       }
     ]
   },
-  "editor.cursorSurroundingLines": 8,
-  "editor.renderLineHighlight": "gutter",
-  "editor.stickyScroll.enabled": true,
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/bower_components": true,
-    "**/*.code-search": true,
-    "**/venv": true,
-    "**/.venv": true,
-    "**/.next": true,
-    "**/.aws-sam": true
-  },
-  "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "gitlens.plusFeatures.enabled": false,
-  "editor.renderWhitespace": "none",
-  "editor.minimap.renderCharacters": false,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "black-formatter.args": [
-    "--line-length",
-    "70"
-  ],
-  "window.zoomLevel": 0,
-  "workbench.secondarySideBar.showLabels": false,
-  "terminal.integrated.fontWeightBold": "normal",
-  "chat.commandCenter.enabled": false,
-  "workbench.navigationControl.enabled": false,
-  "workbench.iconTheme": "vscode-great-icons",
-  "cSpell.enabledNotifications": {
-    "Average Word Length too Long": false,
-    "Lines too Long": false,
-    "Maximum Word Length Exceeded": false
-  },
-  "cSpell.ignoreWords": [],
-  "workbench.experimental.share.enabled": true,
-  "window.commandCenter": false,
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.persistentSessionReviveProcess": "never"
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "workbench.activityBar.location": "top"
 }
