@@ -96,5 +96,7 @@
   },
   "cSpell.ignoreWords": [],
   "workbench.experimental.share.enabled": true,
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never"
 }
