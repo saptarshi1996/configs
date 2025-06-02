@@ -8,4 +8,4 @@ Settings
 'Google Chrome'
 'Brave Browser'
 open -b com.microsoft.VSCode ~/Developer/scripts
-code ~/Developer/notes
+subl ~/Developer/notes

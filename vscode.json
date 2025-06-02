@@ -4,10 +4,10 @@
   "terminal.integrated.fontSize": 12,
   "editor.lineHeight": 1.35,
   "terminal.integrated.lineHeight": 1.35,
-  "editor.fontFamily": "Hack Nerd Font Mono",
-  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "editor.fontFamily": "Menlo",
+  "terminal.integrated.fontFamily": "Menlo",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Tokyo Night",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -86,7 +86,6 @@
   "terminal.integrated.fontWeightBold": "normal",
   "chat.commandCenter.enabled": false,
   "workbench.navigationControl.enabled": false,
-  "workbench.iconTheme": "vscode-great-icons",
   "cSpell.enabledNotifications": {
     "Average Word Length too Long": false,
     "Lines too Long": false,
