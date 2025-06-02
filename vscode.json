@@ -2,10 +2,10 @@
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
-  "editor.fontFamily": "Hack Nerd Font Mono",
-  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "editor.lineHeight": 1.35,
   "terminal.integrated.lineHeight": 1.35,
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Tokyo Night",
   "workbench.preferredLightColorTheme": "Default Light Modern",
@@ -97,58 +97,5 @@
   "window.commandCenter": false,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "workbench.activityBar.location": "top",
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
-  "vim.hlsearch": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": [
-        "j",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
-    },
-    {
-      "before": [
-        "<C-n>"
-      ],
-      "commands": [
-        ":nohl"
-      ]
-    },
-    {
-      "before": [
-        "K"
-      ],
-      "commands": [
-        "lineBreakInsert"
-      ],
-      "silent": true
-    }
-  ],
-  "vim.leader": "<space>",
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": false
-  },
-  "extensions.experimental.affinity": {
-    "vscodevim.vim": 1
-  }
+  "workbench.activityBar.location": "top"
 }
