@@ -4,10 +4,10 @@
   "terminal.integrated.fontSize": 12,
   "editor.lineHeight": 1.35,
   "terminal.integrated.lineHeight": 1.35,
-  "editor.fontFamily": "Monaco",
-  "terminal.integrated.fontFamily": "Monaco",
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -96,5 +96,6 @@
   "window.commandCenter": false,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "vscode-great-icons"
 }
