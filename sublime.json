@@ -2,7 +2,7 @@
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Monokai.sublime-color-scheme",
 	"font_face": "Menlo",
-	"font_size": 12.5,
+	"font_size": 12,
 	"font_options": [
 		"no_bold",
 		"no_italic"
