@@ -94,5 +94,6 @@
   "window.commandCenter": false,
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "workbench.activityBar.location": "top"
+  "workbench.activityBar.location": "top",
+  "workbench.iconTheme": "vscode-great-icons"
 }
