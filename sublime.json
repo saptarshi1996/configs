@@ -1,6 +1,6 @@
 {
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Monokai.sublime-color-scheme",
+	"theme": "auto",
+	"color_scheme": "auto",
 	"font_face": "Monaco",
 	"font_size": 12,
 	"font_options": [
