@@ -8,7 +8,7 @@
   "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
-  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
   "git.autofetch": true,
   "[javascript]": {
     "editor.tabSize": 2
