@@ -2,8 +2,6 @@
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12,
-  "editor.lineHeight": 1.35,
-  "terminal.integrated.lineHeight": 1.35,
   "editor.fontFamily": "Menlo",
   "terminal.integrated.fontFamily": "Menlo",
   "window.autoDetectColorScheme": true,
