@@ -1,7 +1,7 @@
 {
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"font_face": "Monaco",
+	"theme": "auto",
+	"color_scheme": "auto",
+	"font_face": "MesloLGM Nerd Font Mono",
 	"font_size": 12,
 	"font_options": [
 		"no_bold",
