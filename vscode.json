@@ -4,8 +4,6 @@
   "terminal.integrated.fontSize": 12,
   "editor.fontFamily": "MesloLGM Nerd Font Mono",
   "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
-  "editor.lineHeight": 1.35,
-  "terminal.integrated.lineHeight": 1.35,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Panda Syntax",
   "workbench.preferredLightColorTheme": "Default Light Modern",
