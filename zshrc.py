@@ -161,7 +161,7 @@ omz_only = """
 export ZSH="$HOME/.oh-my-zsh"
 
 # Zsh theme (can be changed to your preference)
-ZSH_THEME="simple"
+ZSH_THEME="agnoster"
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
