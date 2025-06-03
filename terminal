@@ -1,3 +1,5 @@
+Terminal: 
+
 Font: Monaco
 
 Size: 12
@@ -11,5 +13,14 @@ Theme. Basic. Font: SF Mono
 Theme. Basic. Opacity: 85%
 Theme. Basic. Blur: 0%
 
+-------------------------------------------------------------
 
-iterm. color: regular. fontsize: 12. spacing: 100. lineheight: 101.
+ITerm:
+
+Color: Regular
+Font: Monaco
+Font Size: 12
+Spacing: 100
+Line Height: 101
+
+Non ASCII font: Font => Arial. FontSize => 13
