@@ -42,22 +42,6 @@
   "editor.semanticTokenColorCustomizations": {
     "enabled": false
   },
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "entity.name.type.class",
-          "entity.name.class",
-          "entity.name.type.module",
-          "support.class",
-          "support.type"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
   "editor.cursorSurroundingLines": 8,
   "editor.renderLineHighlight": "gutter",
   "editor.stickyScroll.enabled": true,
