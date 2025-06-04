@@ -1,9 +1,10 @@
 {
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 12.5,
   "editor.fontFamily": "MesloLGM Nerd Font Mono",
   "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
+  "editor.fontLigatures": false,
   "window.autoDetectColorScheme": true,
   "workbench.preferredDarkColorTheme": "Panda Syntax",
   "workbench.preferredLightColorTheme": "Default Light Modern",
