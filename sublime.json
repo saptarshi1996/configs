@@ -1,6 +1,6 @@
 {
-	"theme": "Adaptive.sublime-theme",
-	"color_scheme": "Packages/Panda Syntax Sublime/Panda/panda-syntax.tmTheme",
+	"theme": "GitHub Dark.sublime-theme",
+	"color_scheme": "GitHub Dark.sublime-color-scheme",
 	"font_face": "MesloLGM Nerd Font Mono",
 	"font_size": 12,
 	"font_options": [
