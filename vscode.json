@@ -4,9 +4,7 @@
   "terminal.integrated.fontSize": 12.5,
   "editor.fontFamily": "MesloLGM Nerd Font Mono",
   "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
-  "editor.fontLigatures": false,
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Panda Syntax",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -80,5 +78,6 @@
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "workbench.activityBar.location": "top",
-  "workbench.iconTheme": "vscode-great-icons"
+  "workbench.iconTheme": "vscode-great-icons",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default"
 }
