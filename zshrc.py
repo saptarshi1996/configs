@@ -12,7 +12,6 @@ alias szshrc="source ~/.zshrc"
 alias szprofile="source ~/.zprofile"
 alias iterm2reset="defaults delete com.googlecode.iterm2 && \\
   rm ~/Library/Preferences/com.googlecode.iterm2.plist"
-alias vim="nvim"
 alias finder="open -a Finder"
 
 # ───────────────
