@@ -2,9 +2,10 @@
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
   "terminal.integrated.fontSize": 12.5,
-  "editor.fontFamily": "MesloLGM Nerd Font Mono",
-  "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
+  "editor.fontFamily": "Monaco",
+  "terminal.integrated.fontFamily": "Monaco",
   "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -78,6 +79,13 @@
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "workbench.activityBar.location": "top",
-  "workbench.iconTheme": "vscode-great-icons",
-  "workbench.preferredDarkColorTheme": "GitHub Dark Default"
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-http-request-pre-request.instructions.md": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-pre-request.instructions.md": true
+  }
 }
