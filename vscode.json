@@ -2,7 +2,7 @@
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
   "editor.lineHeight": 1.35,
-  "editor.letterSpacing": 0.75,
+  "editor.letterSpacing": 1,
   "terminal.integrated.fontSize": 12.5,
   "editor.fontFamily": "Monaco",
   "terminal.integrated.fontFamily": "Monaco",
