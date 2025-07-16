@@ -89,5 +89,6 @@
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-collections-pre-request.instructions.md": true,
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-post-response.instructions.md": true,
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-pre-request.instructions.md": true
-  }
+  },
+  "docker.extension.enableComposeLanguageServer": false
 }
