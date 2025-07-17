@@ -7,7 +7,7 @@
   "editor.fontFamily": "Monaco",
   "terminal.integrated.fontFamily": "Monaco",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Default High Contrast",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
