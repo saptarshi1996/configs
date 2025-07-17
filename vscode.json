@@ -4,10 +4,12 @@
   "editor.lineHeight": 1.35,
   "editor.letterSpacing": 0.75,
   "terminal.integrated.fontSize": 12.5,
+  "terminal.integrated.lineHeight": 1.35,
+  "terminal.integrated.letterSpacing": 1,
   "editor.fontFamily": "Monaco",
   "terminal.integrated.fontFamily": "Monaco",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Default High Contrast",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
