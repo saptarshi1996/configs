@@ -1,15 +1,9 @@
 {
   "workbench.startupEditor": "none",
   "editor.fontSize": 12,
-  "editor.lineHeight": 1.35,
-  "editor.letterSpacing": 1,
   "terminal.integrated.fontSize": 12.5,
-  "terminal.integrated.lineHeight": 1.35,
-  "terminal.integrated.letterSpacing": 1,
-  "editor.fontFamily": "Monaco",
-  "terminal.integrated.fontFamily": "Monaco",
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Default Dark Modern",
+  "workbench.preferredDarkColorTheme": "Monokai",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -92,5 +86,6 @@
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-post-response.instructions.md": true,
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-pre-request.instructions.md": true
   },
-  "docker.extension.enableComposeLanguageServer": false
+  "docker.extension.enableComposeLanguageServer": false,
+  "window.confirmSaveUntitledWorkspace": false
 }
