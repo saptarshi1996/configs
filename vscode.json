@@ -35,10 +35,59 @@
   "python.createEnvironment.trigger": "off",
   "workbench.editor.showIcons": true,
   "explorer.confirmDragAndDrop": false,
-  "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
-    "enabled": false
+    "[Monokai]": {
+      "enabled": true,
+      "rules": {
+        "class": {
+          "fontStyle": ""
+        },
+        "module": {
+          "fontStyle": ""
+        }
+      }
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Monokai]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "comment.block",
+            "comment.block.documentation",
+            "comment.line",
+            "constant",
+            "constant.numeric",
+            "emphasis",
+            "entity",
+            "entity.name",
+            "entity.name.class",
+            "entity.name.function",
+            "entity.other.attribute-name",
+            "keyword",
+            "keyword.control",
+            "markup.italic",
+            "meta",
+            "storage",
+            "variable.language",
+            "variable.parameter"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "workbench.colorCustomizations": {
+    "[Monokai]": {
+      "editorWarning.foreground": "#00000000",
+      "editorError.foreground": "#00000000",
+      "editorHint.foreground": "#00000000"
+    }
   },
   "editor.cursorSurroundingLines": 8,
   "editor.renderLineHighlight": "gutter",
