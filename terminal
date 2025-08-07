@@ -11,11 +11,12 @@ Theme. Basic. Blur: 0%
 
 ITerm:
 
+Apperance: Compact
 Color: Regular
 Font: Monaco
-Font Size: 12
-Spacing: 101
+Font Size: 12.5
+Spacing: 100
 Line Height: 101
 Anti Aliased
 
-Non ASCII font: Font => Arial. FontSize => 10
+Non ASCII font: Font => Arial. FontSize => 11

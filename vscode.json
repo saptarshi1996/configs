@@ -1,9 +1,11 @@
 {
   "workbench.startupEditor": "none",
-  "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13.5,
+  "editor.fontSize": 12.5,
+  "terminal.integrated.fontSize": 13,
   "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Monokai",
+  "editor.fontFamily": "MesloLGM Nerd Font Mono",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font Mono",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -37,58 +39,6 @@
   "explorer.confirmDragAndDrop": false,
   "breadcrumbs.enabled": false,
   "editor.semanticHighlighting.enabled": true,
-  "editor.semanticTokenColorCustomizations": {
-    "[Monokai]": {
-      "enabled": true,
-      "rules": {
-        "class": {
-          "fontStyle": ""
-        },
-        "module": {
-          "fontStyle": ""
-        }
-      }
-    }
-  },
-  "editor.tokenColorCustomizations": {
-    "[Monokai]": {
-      "textMateRules": [
-        {
-          "scope": [
-            "comment",
-            "comment.block",
-            "comment.block.documentation",
-            "comment.line",
-            "constant",
-            "constant.numeric",
-            "emphasis",
-            "entity",
-            "entity.name",
-            "entity.name.class",
-            "entity.name.function",
-            "entity.other.attribute-name",
-            "keyword",
-            "keyword.control",
-            "markup.italic",
-            "meta",
-            "storage",
-            "variable.language",
-            "variable.parameter"
-          ],
-          "settings": {
-            "fontStyle": ""
-          }
-        }
-      ]
-    }
-  },
-  "workbench.colorCustomizations": {
-    "[Monokai]": {
-      "editorWarning.foreground": "#00000000",
-      "editorError.foreground": "#00000000",
-      "editorHint.foreground": "#00000000"
-    }
-  },
   "editor.cursorSurroundingLines": 8,
   "editor.renderLineHighlight": "gutter",
   "editor.stickyScroll.enabled": true,
