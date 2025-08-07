@@ -1,15 +1,9 @@
 {
   "workbench.startupEditor": "none",
-  "editor.fontSize": 12,
-  "editor.lineHeight": 1.35,
-  "editor.letterSpacing": 0.75,
-  "terminal.integrated.fontSize": 12.5,
-  "terminal.integrated.lineHeight": 1.35,
-  "terminal.integrated.letterSpacing": 1,
+  "window.autoDetectColorScheme": true,
   "editor.fontFamily": "Monaco",
   "terminal.integrated.fontFamily": "Monaco",
-  "window.autoDetectColorScheme": true,
-  "workbench.preferredDarkColorTheme": "Default High Contrast",
+  "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
   "[javascript]": {
@@ -41,11 +35,8 @@
   "python.createEnvironment.trigger": "off",
   "workbench.editor.showIcons": true,
   "explorer.confirmDragAndDrop": false,
-  "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": false,
-  "editor.semanticTokenColorCustomizations": {
-    "enabled": false
-  },
+  "editor.semanticHighlighting.enabled": true,
   "editor.cursorSurroundingLines": 8,
   "editor.renderLineHighlight": "gutter",
   "editor.stickyScroll.enabled": true,
@@ -91,5 +82,7 @@
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-collections-pre-request.instructions.md": true,
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-post-response.instructions.md": true,
     "/var/folders/xq/73585rvd3gn0s9r7hs1jtmmw0000gn/T/postman-folder-pre-request.instructions.md": true
-  }
+  },
+  "docker.extension.enableComposeLanguageServer": false,
+  "window.confirmSaveUntitledWorkspace": false
 }
