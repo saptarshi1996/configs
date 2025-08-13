@@ -1,8 +1,7 @@
 {
+  "editor.fontSize": 13,
   "workbench.startupEditor": "none",
   "window.autoDetectColorScheme": true,
-  "editor.fontFamily": "Monaco",
-  "terminal.integrated.fontFamily": "Monaco",
   "workbench.preferredDarkColorTheme": "Default Dark Modern",
   "workbench.preferredLightColorTheme": "Default Light Modern",
   "git.autofetch": true,
