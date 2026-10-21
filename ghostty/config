@@ -1,0 +1,55 @@
+# ==========================================
+# 🎨 APPEARANCE & THEME
+# ==========================================
+theme = Catppuccin Mocha
+
+# Window padding adds clean breathing room around text
+window-padding-x = 14
+window-padding-y = 12
+
+# Subtle background opacity (optional, set to 1.0 for solid dark)
+background-opacity = 1.0
+
+# macOS native window appearance
+macos-titlebar-style = transparent
+window-decoration = true
+
+# ==========================================
+# 🔤 TYPOGRAPHY & SPACING
+# ==========================================
+font-family = "Menlo"
+font-size = 12
+font-style-bold = false
+font-style-bold-italic = false
+
+# Slightly increase vertical cell height for better line readability
+adjust-cell-height = 15%
+
+# macOS font smoothing/thickening
+font-thicken = true
+
+# Enable font ligatures (e.g., -> becomes →)
+font-feature = +liga
+
+# ==========================================
+# 🖱️ CURSOR & MOUSE
+# ==========================================
+
+# Automatically copy text when selected with mouse
+copy-on-select = true
+
+# ==========================================
+# ⚡ KEYBINDINGS (iTerm2-like Splits & Reload)
+# ==========================================
+# Split screens easily
+keybind = cmd+d=new_split:right
+keybind = cmd+shift+d=new_split:down
+
+# Move between splits with Option + Arrow keys
+keybind = alt+left=goto_split:left
+keybind = alt+right=goto_split:right
+keybind = alt+up=goto_split:top
+keybind = alt+down=goto_split:bottom
+
+# Reload Ghostty config without restarting
+keybind = cmd+shift+comma=reload_config
