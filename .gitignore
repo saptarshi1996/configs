@@ -1,3 +1,5 @@
-customopen
-macos.txt
 .venv/
+__pycache__/
+.DS_Store
+macos.txt
+customopen
