@@ -2,23 +2,6 @@
 
 Personal macOS configs all in one place.
 
-## Contents
-
-| File | Description |
-|---|---|
-| `zshrc.py` | Generates `~/.zshrc` (aliases, git shortcuts, open commands) |
-| `bashrc.py` | Template for bash config (currently empty) |
-| `vscode.py` | Exports VS Code settings and extensions |
-| `vscode.json` | Exported VS Code `settings.json` |
-| `vscodeextension` | Exported list of installed VS Code extensions |
-| `dock.py` | Exports pinned Dock items |
-| `dock` | Exported Dock layout |
-| `macos.py` | Records display resolution and color theme (writes `macos.txt`, git-ignored) |
-| `defaultopen` | Apps and commands turned into open aliases by `zshrc.py` |
-| `customopen` | Machine-specific open aliases (git-ignored, create locally) |
-| `terminal` | Terminal.app and iTerm settings notes |
-| `sublime.json` | Sublime Text settings |
-
 ## Setup
 
 ```sh
